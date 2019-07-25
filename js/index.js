@@ -1,19 +1,19 @@
+var age = parseInt(prompt("Digite sua idade"));
 
-var age= parseInt(prompt("digite numero"));
-if(age>=65) {
-	document.body.append("você é idoso");
+if (age >= 65 ) {
+	document.body.append("Você é idoso!");
 }
 else {
-	if(age>=18) {
-		document.body.append("você é maior");
-	} else {
-	if(age<=12) {
-		document.body.append("voce é crianca");}
-	} else {
-		document.body.append("voce é adolescente");
+	if (age >= 18) {
+		document.body.append("Você é maior de idade!")
+	}else{ 
+		if (age <= 12) {
+			document.body.append("Você é criança!")
+		}else {
+			document.body.append("Você é adolescente!")
+		}	
 	}
-}
-	
+} 
 
 
 
